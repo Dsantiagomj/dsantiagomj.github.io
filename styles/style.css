@@ -1,0 +1,16 @@
+/* navbar */
+.navbar{
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 100%;
+}
+.navbar__section{
+  display: flex;
+}
+.navbar__section--right{
+  justify-content: space-around;
+  width: 35%
+
+}

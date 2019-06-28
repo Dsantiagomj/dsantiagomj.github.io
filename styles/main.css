@@ -1,0 +1,19 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  color: #3a3a3a;
+  font-family: 'Lato', sans-serif;
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+  width: 100wh;
+}
+ul{
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}

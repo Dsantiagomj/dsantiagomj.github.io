@@ -2,6 +2,7 @@
 .navbar{
   align-items: center;
   display: flex;
+  height: 80px;
   justify-content: space-between;
   position: relative;
   width: 100%;
@@ -11,6 +12,9 @@
 }
 .navbar__section--right{
   justify-content: space-around;
-  width: 35%
-
+  width: 35%;
+}
+.logo{
+  height: 60px;
+  width: 120px;
 }

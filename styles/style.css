@@ -1,10 +1,13 @@
 /* navbar */
 .navbar{
   align-items: center;
+  background-color: #FFFFFF;
+  border-bottom-color: #f0f0f0;
+  border-bottom-width: 1px;
   display: flex;
   height: 80px;
   justify-content: space-between;
-  position: relative;
+  position: fixed;
   width: 100%;
 }
 .navbar__section{
@@ -17,4 +20,73 @@
 .logo{
   height: 60px;
   width: 120px;
+}
+/* header */
+.content__wrapper{
+  align-items: center;
+  display: flex;
+  height: 100vh;
+  justify-content: space-around;
+  width: 100%;
+}
+.header__content{
+  margin-left: 5%;
+  width: 50%;
+}
+.header__content--right{
+  margin-right: 5%;
+  width: 50%
+}
+.image__style{
+  width: 100%
+}
+.header__content__title{
+  font-size: 48px;
+}
+.span__text{
+  color: #FE289C;
+  
+}
+.button__style{
+  background-color: #FE289C;
+  border-color: #FE289C;
+  border-radius: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  font-size: 24px;
+  padding: 10px 20px;
+}
+.button__text{
+  color: #FFFFFF;
+}
+/*section content*/
+.section__image{
+  width: 50%;
+}
+.section__content{
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 50%;
+}
+.card__wrapper{
+  display: flex;
+  justify-content: center;
+}
+.card{
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  height: 150px;
+  margin: 10px;
+  padding: 25px;
+  transition: 0.3s;
+  width: 150px;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.card__image{
+  height: 100px;
+  width: 100px;
+}
+.card__text{
+  text-align: center
 }

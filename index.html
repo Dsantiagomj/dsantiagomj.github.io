@@ -35,121 +35,168 @@
         </li>
       </ul>
     </nav>
-    <div>
-      <img src="./assets/images/developer.png" alt="developer" style="width: 300px">
-      <h1>Hi, I'm Daniel a front-end and mobile developer</h1>
-      <button> <a href="https://drive.google.com/file/d/1ccnVa7WPOMQYXPhrkTROxBkw3-zFSejr/view" target="_blank">Get my
-          resume</a></button>
+    <div class="content__wrapper">
+      <div class="header__content">
+        <h1 class="header__content__title">Hi, I'm Daniel a <span class="span__text">front-end</span> and <span
+            class="span__text">mobile</span> developer
+        </h1>
+        <button class="button__style"> <a href="https://drive.google.com/file/d/1ccnVa7WPOMQYXPhrkTROxBkw3-zFSejr/view"
+            target="_blank" class="button__text">Get my
+            resume</a></button>
+      </div>
+
+      <div class="header__content header__content--right">
+        <img src="./assets/images/developer.png" alt="developer" class="image__style">
+      </div>
+
     </div>
   </header>
 
   <main>
 
-    <section id="about">
-
-      <h2> About me</h2>
-      <img src="./assets/images/online-education.png" alt="about" style="width: 300px">
-      <p>Coming from Barranquilla, Colombia, I started my journey as a developer in 2018.
-        I have developed a special interest in front-end and mobile development, where I have worked most of my projects
-        and developed my skills.
-        A fan of learning and interacting with new technologies, these are the skills I have learned and improved in the
-        past year
-      </p>
-      <ul>
-        <li>Git & Terminal</li>
-        <li>HTML5</li>
-        <li>CSS</li>
-        <li>Javascript</li>
-        <li>ReactJS</li>
-        <li>React-Native</li>
-        <li>Ruby & Ruby on Rails</li>
-        <li>Dart & Flutter</li>
-      </ul>
-
+    <section id="about" class="content__wrapper">
+      <div class="section__image">
+        <img src="./assets/images/online-education.png" alt="about" class="image__style">
+      </div>
+      <div class="section__content">
+        <h2 class="content__title"> About me</h2>
+        <p class="content__paragraph">Coming from Barranquilla, Colombia, I started my journey as a developer in 2018.
+          I have developed a special interest in front-end and mobile development, where I have worked most of my
+          projects
+          and developed my skills.
+          A fan of learning and interacting with new technologies, these are the skills I have learned and improved in
+          the
+          past year
+        </p>
+        <ul class="card__wrapper">
+          <li class="card">
+            <img src="./assets/images/git.png" alt="terminal" class="card__image">
+            <span class="card__text">Git & Terminal</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/html.png" alt="html" class="card__image">
+            <span class="card__text">HTML5</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/css.png" alt="css" class="card__image">
+            <span class="card__text">CSS</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/javascript.png" alt="javascript" class="card__image">
+            <span class="card__text">Javascript</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/react.png" alt="react" class="card__image">
+            <span class="card__text">ReactJS</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/react.png" alt="reactnative" class="card__image">
+            <span class="card__text">React native</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/ruby.png" alt="ruby" class="card__image">
+            <span class="card__text">Ruby & Ruby on Rails</span>
+          </li>
+          <li class="card">
+            <img src="./assets/images/dart.png" alt="dart" class="card__image">
+            <span class="card__text">Dart & Flutter</span>
+          </li>
+        </ul>
+      </div>
     </section>
 
-    <section id="#projects">
-      <h2>Projects where I have worked </h2>
-      <img src="./assets/images/coworking.png" alt="projects" style="width: 300px">
-      <details>
-        <summary>
-          ShopyLive
-        </summary>
-        <p>Mobile app developed with react-native & nodeJS.</p>
-        <p>the best places to find deals are the outlets, that's why ShopyLive offers you access to products that are on
-          sales directly from the outlets through a Sales Hunter that we called shopyliver, who is live broadcasting
-          from the store and shows you the best offers of the day, so you can Access a whole world of discounts and
-          better prices from your mobile.</p>
+    <section id="projects" class="content__wrapper">
+      <div class="section__content">
+        <h2>Projects where I've been involved </h2>
+        <details>
+          <summary>
+            ShopyLive
+          </summary>
+          <p>Mobile app developed with react-native & nodeJS.</p>
+          <p>the best places to find deals are the outlets, that's why ShopyLive offers you access to products that are
+            on
+            sales directly from the outlets through a Sales Hunter that we called shopyliver, who is live broadcasting
+            from the store and shows you the best offers of the day, so you can Access a whole world of discounts and
+            better prices from your mobile.</p>
 
-        <p>How does it work :
-          The shopylivers, go to the outlets, from there they publish the best deals, Then you can buy anything that you
-          want trough them.
-        </p>
-        <p>Links: </p>
-        <ul>
-          <li><a href="https://www.shopylive.com/">Website</a></li>
-          <li><a href="https://play.google.com/store/apps/details?id=com.shopylive.app&hl=en">Playstore</a></li>
-        </ul>
-      </details>
+          <p>How does it work :
+            The shopylivers, go to the outlets, from there they publish the best deals, Then you can buy anything that
+            you
+            want trough them.
+          </p>
+          <p>Links: </p>
+          <ul>
+            <li><a href="https://www.shopylive.com/">Website</a></li>
+            <li><a href="https://play.google.com/store/apps/details?id=com.shopylive.app&hl=en">Playstore</a></li>
+          </ul>
+        </details>
 
-      <details>
-        <summary>
-          Makeitgram
-        </summary>
-        <p>web app developed on Ruby on Rails</p>
-        <p>Social network project inspired on Instagram using Ruby on Rails </p>
-        <p>Links</p>
-        <ul>
-          <li><a href="https://github.com/Dsantiagomj/makeitgram">Github</a></li>
-        </ul>
-      </details>
+        <details>
+          <summary>
+            Makeitgram
+          </summary>
+          <p>web app developed on Ruby on Rails</p>
+          <p>Social network project inspired on Instagram using Ruby on Rails </p>
+          <p>Links</p>
+          <ul>
+            <li><a href="https://github.com/Dsantiagomj/makeitgram">Github</a></li>
+          </ul>
+        </details>
 
-      <details>
-        <summary>
-          css - garden Javascript
-        </summary>
-        <p>Simple game to practice the manipulation of DOM inspired on CSS Grid Garden.</p>
-        <p>links:</p>
-        <ul>
-          <a href="https://github.com/Dsantiagomj/css-garden-js">Github</a>
-        </ul>
-      </details>
+        <details>
+          <summary>
+            css - garden Javascript
+          </summary>
+          <p>Simple game to practice the manipulation of DOM inspired on CSS Grid Garden.</p>
+          <p>links:</p>
+          <ul>
+            <a href="https://github.com/Dsantiagomj/css-garden-js">Github</a>
+          </ul>
+        </details>
 
-      <details>
-        <summary>
-          ELA Sustentable
-        </summary>
-        <p>Web application developed on ReactJs and Django, for customer management, inventory, invoices and analytics.
-        </p>
-        <p>links: </p>
-        <ul>
-          <a href="https://www.elasustentable.com/">Website</a>
-        </ul>
-      </details>
+        <details>
+          <summary>
+            ELA Sustentable
+          </summary>
+          <p>Web application developed on ReactJs and Django, for customer management, inventory, invoices and
+            analytics.
+          </p>
+          <p>links: </p>
+          <ul>
+            <a href="https://www.elasustentable.com/">Website</a>
+          </ul>
+        </details>
 
-      <details>
-        <summary>Portfolio</summary>
-        <p>Personal site developed with HTML5, CSS & vanila Javascript</p>
-        <p>Links</p>
-        <ul>
-          <a href="https://github.com/Dsantiagomj/dsantiagomj.github.io">Github</a>
-        </ul>
-      </details>
-
+        <details>
+          <summary>Portfolio</summary>
+          <p>Personal site developed with HTML5, CSS & vanila Javascript</p>
+          <p>Links</p>
+          <ul>
+            <a href="https://github.com/Dsantiagomj/dsantiagomj.github.io">Github</a>
+          </ul>
+        </details>
+      </div>
+      <div class="section__image">
+        <img src="./assets/images/coworking.png" alt="projects" class="image__style">
+      </div>
     </section>
 
-    <section id="#contact">
-      <h2>Let's get in touch</h2>
-      <img src="./assets/images/mobile-notification.png" alt="contact" style="width: 300px">
-      <form action="https://formspree.io/dsantiagomj@icloud.com" method="POST">
-        <label>Your name</label>
-        <input type="text" name="name">
-        <label>Your Email</label>
-        <input type="email" name="_replyto">
-        <label>Your message</label>
-        <textarea name="body"></textarea>
-        <input type="submit" value="Send">
-      </form>
+    <section id="contact" class="content__wrapper">
+      <div class="section__image">
+        <img src="./assets/images/mobile-notification.png" alt="contact" class="image__style">
+      </div>
+      <div class="section__content">
+        <h2>Let's get in touch</h2>
+        <form action="https://formspree.io/dsantiagomj@icloud.com" method="POST">
+          <label>Your name</label>
+          <input type="text" name="name">
+          <label>Your Email</label>
+          <input type="email" name="_replyto">
+          <label>Your message</label>
+          <textarea name="body"></textarea>
+          <input type="submit" value="Send">
+        </form>
+      </div>
     </section>
 
   </main>

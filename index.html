@@ -6,13 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>dsantiagomj.com</title>
-  <link rel="shortcut icon" type="image/png" href="./assets/images/dark_logo_transparent_background.png" />
+  <link rel="shortcut icon" type="image/png" href="./assets/images/logo_favicon_size.png" />
   <link rel="stylesheet" href="./styles/main.css">
   <link rel="stylesheet" href="./styles/style.css">
 </head>
 
 <body>
-
   <header id="header" class="header">
     <nav class="navbar">
       <ul class="navbar__section">
@@ -40,8 +39,9 @@
         <h1 class="header__content__title">Hi, I'm Daniel a <span class="span__text">front-end</span> and <span
             class="span__text">mobile</span> developer
         </h1>
-        <button class="button__style"> <a href="https://drive.google.com/file/d/1ccnVa7WPOMQYXPhrkTROxBkw3-zFSejr/view"
-            target="_blank" class="button__text">Get my
+        <button class="button__style button__style--header"> <a
+            href="https://drive.google.com/file/d/1ccnVa7WPOMQYXPhrkTROxBkw3-zFSejr/view" target="_blank"
+            class="button__text">Get my
             resume</a></button>
       </div>
 
@@ -50,11 +50,13 @@
       </div>
 
     </div>
+    <div class="big__circle"></div>
   </header>
 
   <main>
 
-    <section id="about" class="content__wrapper">
+    <section id="about" class="content__wrapper content__wrapper--variant">
+      <div class="big__circle big__circle--variant"></div>
       <div class="section__image">
         <img src="./assets/images/online-education.png" alt="about" class="image__style">
       </div>
@@ -68,6 +70,7 @@
           the
           past year
         </p>
+
         <ul class="card__wrapper">
           <li class="card">
             <img src="./assets/images/git.png" alt="terminal" class="card__image">
@@ -103,94 +106,98 @@
           </li>
         </ul>
       </div>
+      <div class="small__circle"></div>
     </section>
 
     <section id="projects" class="content__wrapper">
-      <div class="section__content">
+      <div class="section__content section__content--variant">
         <h2 class="content__title">Projects where I've been involved </h2>
-        <details>
-          <summary>
+        <details class="details__style">
+          <summary class="summary__style">
             ShopyLive
           </summary>
-          <p>Mobile app developed with react-native & nodeJS.</p>
-          <p>the best places to find deals are the outlets, that's why ShopyLive offers you access to products that are
-            on
-            sales directly from the outlets through a Sales Hunter that we called shopyliver, who is live broadcasting
-            from the store and shows you the best offers of the day, so you can Access a whole world of discounts and
-            better prices from your mobile.</p>
+          <div class="details__content">
+            <p>Mobile app developed with react-native & nodeJS.</p>
+            <p>the best places to find deals are the outlets, that's why ShopyLive offers you access to products that
+              are
+              on
+              sales directly from the outlets through a Sales Hunter that we called shopyliver, who is live broadcasting
+              from the store and shows you the best offers of the day, so you can Access a whole world of discounts and
+              better prices from your mobile.</p>
 
-          <p>How does it work :
-            The shopylivers, go to the outlets, from there they publish the best deals, Then you can buy anything that
-            you
-            want trough them.
-          </p>
-          <p>Links: </p>
-          <ul>
-            <li><a href="https://www.shopylive.com/">Website</a></li>
-            <li><a href="https://play.google.com/store/apps/details?id=com.shopylive.app&hl=en">Playstore</a></li>
-          </ul>
+            <p>How does it work :
+              The shopylivers, go to the outlets, from there they publish the best deals, Then you can buy anything that
+              you
+              want trough them.
+            </p>
+            <p>
+              <a href="https://www.shopylive.com/" class="project__link"> Visit website</a>
+            </p>
+            <p>
+              <a href="https://play.google.com/store/apps/details?id=com.shopylive.app&hl=en"
+                class="project__link">Download app</a>
+            </p>
+          </div>
         </details>
 
-        <details>
-          <summary>
+        <details class="details__style">
+          <summary class="summary__style">
             Makeitgram
           </summary>
-          <p>web app developed on Ruby on Rails</p>
-          <p>Social network project inspired on Instagram using Ruby on Rails </p>
-          <p>Links</p>
-          <ul>
-            <li><a href="https://github.com/Dsantiagomj/makeitgram">Github</a></li>
-          </ul>
+          <div class="details__content">
+            <p>web app developed on Ruby on Rails</p>
+            <p>Social network project inspired on Instagram using Ruby on Rails </p>
+            <a href="https://github.com/Dsantiagomj/makeitgram" class="project__link">View code</a>
+          </div>
         </details>
 
-        <details>
-          <summary>
+        <details class="details__style">
+          <summary class="summary__style">
             css - garden Javascript
           </summary>
-          <p>Simple game to practice the manipulation of DOM inspired on CSS Grid Garden.</p>
-          <p>links:</p>
-          <ul>
-            <a href="https://github.com/Dsantiagomj/css-garden-js">Github</a>
-          </ul>
+          <div class="details__content">
+            <p>Simple game to practice the manipulation of DOM inspired on CSS Grid Garden.</p>
+            <a href="https://github.com/Dsantiagomj/css-garden-js" class="project__link">view code</a>
+          </div>
         </details>
 
-        <details>
-          <summary>
+        <details class="details__style">
+          <summary class="summary__style">
             ELA Sustentable
           </summary>
-          <p>Web application developed on ReactJs and Django, for customer management, inventory, invoices and
-            analytics.
-          </p>
-          <p>links: </p>
-          <ul>
-            <a href="https://www.elasustentable.com/">Website</a>
-          </ul>
+          <div class="details__content">
+            <p>Web application developed on ReactJs and Django, for customer management, inventory, invoices and
+              analytics.
+            </p>
+            <p>links: </p>
+            <a href="https://www.elasustentable.com/" class="project__link">Visit website</a>
+          </div>
         </details>
 
-        <details>
-          <summary>Portfolio</summary>
-          <p>Personal site developed with HTML5, CSS & vanila Javascript</p>
-          <p>Links</p>
-          <ul>
-            <a href="https://github.com/Dsantiagomj/dsantiagomj.github.io">Github</a>
-          </ul>
+        <details class="details__style">
+          <summary class="summary__style">
+            Portfolio
+          </summary>
+          <div class="details__content">
+            <p>Personal site developed with HTML5, CSS & vanila Javascript</p>
+            <a href="https://github.com/Dsantiagomj/dsantiagomj.github.io" class="project__link">View code</a>
+          </div>
         </details>
       </div>
+      <div class="content__circle content__circle--variant"></div>
       <div class="section__image">
         <img src="./assets/images/coworking.png" alt="projects" class="image__style">
       </div>
     </section>
 
-    <section id="contact" class="content__wrapper">
+    <section id="contact" class="content__wrapper content__wrapper--variant">
       <div class="section__image">
         <img src="./assets/images/mobile-notification.png" alt="contact" class="image__style">
       </div>
       <div class="section__content">
-        <h2 class="content__title">Let's get in touch</h2>
-
         <form action="https://formspree.io/dsantiagomj@icloud.com" method="POST" class="form__style" autocomplete="on">
-          <fieldset>
-            <legend>Let me help you with anything</legend>
+          <fieldset class="fieldset__style">
+            <h2 class="content__title">Send me a message</h2>
             <p>
               <label class="form__label">Your name</label>
               <input type="text" name="name" required class="form__input">
@@ -204,28 +211,38 @@
               <textarea name="message" required autocomplete="off" wrap="hard" cols="40" rows="10" spellcheck
                 class="form__input form__input--textarea"></textarea>
             </p>
+            <input type="submit" value="Send" class="button__style button__style--form">
           </fieldset>
-          <input type="submit" value="Send" class="button__style button__style--form">
         </form>
       </div>
+      <div class="footer__circle"></div>
     </section>
 
   </main>
 
   <footer class="content__wrapper content__wrapper--footer">
-    <div>
-      <h2>Where to find me</h2>
-      <ul>
-        <li>
-          <a href="https://github.com/Dsantiagomj">Github</a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/dsantiagomj/">LinkedIn</a>
-        </li>
-        <li>
-          <a href="https://www.instagram.com/dsantiagomj/">Instagram</a>
-        </li>
-      </ul>
+    <div class="footer__content">
+      <div class="avatar__wrapper">
+        <img src="./assets/images/dsantiagomj.jpg" alt="dsantiagomj" class="avatar">
+      </div>
+      <p class="footer__content__text">Barranquilla, Colombia</p>
+      <p class="footer__content__text">
+        <a href="mailto:dsantiagomj@icloud.com" class="footer__content__link"> dsantiagomj@icloud.com</a>
+      </p>
+      <p class="footer__content__text">
+        <a href="tel:+573015083869" class="footer__content__link"> +57 301 508 3869 </a>
+      </p>
+    </div>
+    <div class="footer__content footer__content--right">
+      <p class="footer__content__text">
+        <a href="https://www.linkedin.com/in/dsantiagomj/" class="footer__content__link" target="_blank">LinkedIn</a>
+      </p>
+      <p class="footer__content__text">
+        <a href="https://github.com/Dsantiagomj" class="footer__content__link" target="_blank"> Github</a>
+      </p>
+      <p class="footer__content__text">
+        <a href="https://www.instagram.com/dsantiagomj/" class="footer__content__link" target="_blank">Instagram</a>
+      </p>
     </div>
   </footer>
 

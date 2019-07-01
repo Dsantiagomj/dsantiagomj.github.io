@@ -5,8 +5,9 @@
   border-bottom-color: #f0f0f0;
   border-bottom-width: 1px;
   display: flex;
-  height: 80px;
+  height: 65px;
   justify-content: space-between;
+  padding-top: 3vh;
   position: fixed;
   width: 100%;
 }
@@ -21,7 +22,27 @@
   height: 60px;
   width: 120px;
 }
+.navbar__item{
+  padding: 10px;
+  width: 50px;
+}
+.navbar__item:visited{
+  color: #3a3a3a;
+}
+.navbar__item:hover{
+  border-bottom-color: #FE289C;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
+.navbar__item:active{
+  border-bottom-color: #FE289C;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}
 /* header */
+.header{
+  background-color: #FFFFFF;
+}
 .content__wrapper{
   align-items: center;
   display: flex;
@@ -52,6 +73,7 @@
   border-color: #FE289C;
   border-radius: 25px;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  color: #FFFFFF;
   font-size: 24px;
   padding: 10px 20px;
 }
@@ -84,9 +106,33 @@
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 .card__image{
-  height: 100px;
   width: 100px;
 }
 .card__text{
   text-align: center
+}
+/* form style */
+.form__style{
+  width: 50vw;
+}
+.form__label{
+  height: 2vh;
+  width: 100%;
+}
+.form__input{
+  height: 5vh;
+  margin-top: 1.25vh;
+  width: 100%;
+}
+.form__input--textarea{
+  height: 12.5vh;
+}
+.button__style--form{
+  margin-left: 42.5vw;
+  margin-top: 2vh;
+}
+/*footer*/
+.content__wrapper--footer{
+  background-color: #FE289C;
+  height: 35vh;
 }

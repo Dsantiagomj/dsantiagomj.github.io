@@ -25,13 +25,13 @@
       </ul>
       <ul class="navbar__section navbar__section--right">
         <li>
-          <a href="#about">About</a>
+          <a href="#about" class="navbar__item">About</a>
         </li>
         <li>
-          <a href="#projects">Projects</a>
+          <a href="#projects" class="navbar__item">Projects</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" class="navbar__item">Contact</a>
         </li>
       </ul>
     </nav>
@@ -107,7 +107,7 @@
 
     <section id="projects" class="content__wrapper">
       <div class="section__content">
-        <h2>Projects where I've been involved </h2>
+        <h2 class="content__title">Projects where I've been involved </h2>
         <details>
           <summary>
             ShopyLive
@@ -186,37 +186,47 @@
         <img src="./assets/images/mobile-notification.png" alt="contact" class="image__style">
       </div>
       <div class="section__content">
-        <h2>Let's get in touch</h2>
-        <form action="https://formspree.io/dsantiagomj@icloud.com" method="POST">
-          <label>Your name</label>
-          <input type="text" name="name">
-          <label>Your Email</label>
-          <input type="email" name="_replyto">
-          <label>Your message</label>
-          <textarea name="body"></textarea>
-          <input type="submit" value="Send">
+        <h2 class="content__title">Let's get in touch</h2>
+
+        <form action="https://formspree.io/dsantiagomj@icloud.com" method="POST" class="form__style" autocomplete="on">
+          <fieldset>
+            <legend>Let me help you with anything</legend>
+            <p>
+              <label class="form__label">Your name</label>
+              <input type="text" name="name" required class="form__input">
+            </p>
+            <p>
+              <label class="form__label">Your Email</label>
+              <input type="email" name="_replyto" required class="form__input">
+            </p>
+            <p>
+              <label class="form__label">Your message</label>
+              <textarea name="message" required autocomplete="off" wrap="hard" cols="40" rows="10" spellcheck
+                class="form__input form__input--textarea"></textarea>
+            </p>
+          </fieldset>
+          <input type="submit" value="Send" class="button__style button__style--form">
         </form>
       </div>
     </section>
 
   </main>
 
-  <footer>
-
-    <h2>Where to find me</h2>
-    <img src="./assets/images/mobile-learning.png" alt="footer" style="width: 300px">
-    <ul>
-      <li>
-        <a href="https://github.com/Dsantiagomj">Github</a>
-      </li>
-      <li>
-        <a href="https://www.linkedin.com/in/dsantiagomj/">LinkedIn</a>
-      </li>
-      <li>
-        <a href="https://www.instagram.com/dsantiagomj/">Instagram</a>
-      </li>
-    </ul>
-
+  <footer class="content__wrapper content__wrapper--footer">
+    <div>
+      <h2>Where to find me</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/Dsantiagomj">Github</a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dsantiagomj/">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/dsantiagomj/">Instagram</a>
+        </li>
+      </ul>
+    </div>
   </footer>
 
 </body>

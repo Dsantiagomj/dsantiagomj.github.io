@@ -1,0 +1,29 @@
+.navbar {
+  background-color: #ffffff;
+  display: flex;
+}
+.navbar__section {
+  align-items: center;
+  display: flex;
+  width: 50%;
+}
+.navbar__section--right {
+  justify-content: space-around;
+}
+.navbar__logo {
+  width: 10em;
+}
+.navbar__item {
+  color: #3a3a3a;
+  padding: 1em;
+}
+.navbar__item:visited {
+  color: #3a3a3a;
+}
+.navbar__item--active,
+.navbar__item:active,
+.navbar__item:hover {
+  border-bottom-color: #fe289c;
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+}

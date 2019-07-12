@@ -1,0 +1,79 @@
+/* Shapes CSS */
+
+.big__circle {
+  position: absolute;
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #103b7c;
+  background-color: #103b7c;
+  bottom: -10em;
+  left: -20em;
+}
+.big__circle--variant {
+  position: absolute;
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #103b7c;
+  background-color: #103b7c;
+  top: -27em;
+  left: -20em;
+}
+.small__circle {
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #fe289c;
+  background-color: #fe289c;
+  bottom: 10em;
+  right: -10em;
+}
+.small__circle--variant {
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #fe289c;
+  background-color: #fe289c;
+  bottom: 10em;
+  right: -10em;
+}
+.content__circle {
+  position: absolute;
+  width: 20em;
+  height: 20em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #9939e9;
+  background-color: #9939e9;
+  bottom: 5em;
+  left: 1em;
+  z-index: 1;
+}
+.content__circle--variant {
+  position: absolute;
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #9939e9;
+  background-color: #9939e9;
+  z-index: 1;
+}
+.footer__circle {
+  position: absolute;
+  width: 30em;
+  height: 30em;
+  border-radius: 50%;
+  border-width: 1em;
+  border-color: #103b7c;
+  background-color: #103b7c;
+  bottom: -13em;
+  right: -20em;
+}

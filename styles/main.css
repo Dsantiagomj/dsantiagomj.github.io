@@ -4,13 +4,12 @@
 
 html,
 body {
-  background-color: #3a3a3a;
   color: #3a3a3a;
   font-family: "helvetica";
   height: 100vh;
   margin: 0;
   overflow-x: hidden;
-  width: 100wh;
+  width: 100vw;
 }
 ul {
   list-style-type: none;

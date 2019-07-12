@@ -131,7 +131,7 @@
   height: 100vh;
   justify-content: space-around;
   position: relative;
-  width: 100%;
+  width: 100vw;
 }
 .content__wrapper--variant {
   background-color: #fdfefd;
@@ -292,13 +292,13 @@
   width: 100vw;
 }
 .avatar__wrapper {
-  height: 10em;
-  width: 10em;
-  border-radius: 5em;
+  height: 8em;
+  width: 8em;
+  border-radius: 4em;
   overflow: hidden;
 }
 .avatar {
-  width: 10em;
+  width: 8em;
 }
 .footer__content__text {
   color: #ffffff;

@@ -6,15 +6,29 @@ html,
 body {
   background-color: #3a3a3a;
   color: #3a3a3a;
-  font-family: 'helvetica';
+  font-family: "helvetica";
   height: 100vh;
   margin: 0;
   overflow-x: hidden;
   width: 100wh;
 }
-ul{
+ul {
   list-style-type: none;
 }
 a {
   text-decoration: none;
+}
+details[open] summary ~ * {
+  animation: sweep 0.4s ease-in-out;
+}
+
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    margin-top: -10px;
+  }
+  100% {
+    opacity: 1;
+    margin-top: 0px;
+  }
 }

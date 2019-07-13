@@ -18,14 +18,21 @@
   flex-direction: column;
   height: 100%;
   justify-content: center;
-  width: 40%;
+  width: 50%;
 }
 .content__text__title {
+  font-size: 2em;
+  margin-top: -4em;
+}
+.content__text__title--index {
   font-size: 3em;
   margin-top: -5em;
 }
-.content__text__span {
+.content__text__title__span {
   color: #fe289c;
+}
+.content__wrapper__paragraph {
+  text-align: justify;
 }
 .content__text__button {
   background-color: #fe289c;
@@ -41,9 +48,102 @@
   display: flex;
   justify-content: flex-end;
   height: 100%;
-  width: 60%;
+  width: 50%;
+}
+.content__link {
+  color: #3a3a3a;
+  margin: 0 1em;
+  padding-bottom: 0.4em;
+}
+.content__link:hover {
+  border-bottom-color: #fe289c;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  color: #3a3a3a;
 }
 .image__style {
   margin-top: -1em;
-  width: 80%;
+  width: 90%;
+}
+.card {
+  background-color: #ffffff;
+  border-radius: 0.5em;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 0.8em;
+  padding: 1.2em;
+  transition: 0.3s;
+  height: 8em;
+  width: 8em !important;
+}
+.card__content {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-around;
+}
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.card__text {
+  text-align: center;
+  width: 100%;
+}
+.card__icon {
+  font-size: 40px;
+  text-align: center;
+  width: 100%;
+}
+.form__style {
+  background-color: #ffffff;
+  width: 100%;
+}
+.fieldset__style {
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-color: transparent;
+  overflow: hidden;
+}
+.form__label {
+  height: 2vh;
+  width: 100%;
+}
+.form__input {
+  height: 5vh;
+  margin-top: 1.25vh;
+  margin-bottom: 2vh;
+  width: 100%;
+}
+.form__input--textarea {
+  height: 12.5vh;
+}
+.content__text__button--form {
+  margin-left: 36vw;
+  margin-top: 1vh;
+  margin-bottom: 1vh;
+  padding: 0.2em 0.8em;
+}
+.accordion__wrapper {
+  background-color: #fdfefd;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  height: 80vh;
+  margin-top: 0;
+  overflow-y: scroll;
+  padding: 1em;
+}
+.accordion__title {
+  font-size: 2em;
+}
+.details__style {
+  padding: 1em;
+}
+.summary__style {
+  font-weight: bold;
+  border-bottom: 1px solid #3a3a3a;
+  padding: 0.5em 1em;
+}
+.details__content {
+  border-left: 1px solid #3a3a3a;
+  border-right: 1px solid #3a3a3a;
+  border-bottom: 1px solid #3a3a3a;
+  padding: 1em;
 }
